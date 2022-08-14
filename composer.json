@@ -2,6 +2,7 @@
     "name": "asamirsherif/zatca-integration",
     "description": "Laravel package to Generate the QR code and Integrate with Tax APIs for Zatca E-invoicing",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
           "Asamirsherif\\Zatca\\": "src"
