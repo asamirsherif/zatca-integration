@@ -1,5 +1,5 @@
-Laravel ZATCA Integration
+#Laravel ZATCA Integration
 
-Introduction
+##Introduction
 
-Laravel package to Integrate with ZATCA servers and Generate the QR code signed and Validated for ZATCA E-invoicing
+###Laravel package to Integrate with ZATCA servers and Generate the QR code signed and Validated for ZATCA E-invoicing
