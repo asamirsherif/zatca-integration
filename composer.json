@@ -1,0 +1,43 @@
+{
+    "name": "asamirsherif/zatca-integration",
+    "description": "Laravel package to Generate the QR code and Integrate with Tax APIs for Zatca E-invoicing",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "Asamirsherif\\Zatca\\": "src"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+      },
+    
+    "keywords": [
+        "asamirsherif",
+        "laravel",
+        "qrcode",
+        "ZATCA",
+        "e-invoicing"
+      ],
+    "homepage": "https://github.com/asamirsherif/zatca-integration",
+    "authors": [
+        {
+            "name": "Ahmed Samir",
+            "email": "a.samirsherif@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2|^8.0",
+        "simplesoftwareio/simple-qrcode": "^4.2",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Prgayman\\Zatca\\ZatcaServiceProvider"
+          ],
+          "aliases": {
+            "Zatca": "Prgayman\\Zatca\\Facades\\Zatca"
+          }
+        }
+      }
+}
